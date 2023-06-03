@@ -1,0 +1,175 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* Main */
+
+h1 {
+    font-size: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+h2 {
+    font-size: 2.3rem;
+}
+p {
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ /* Nav */
+
+nav {
+    background-color: #000000;
+    margin-top: 1rem;
+}
+nav ul {
+    list-style: none;
+    font-size: 2rem;
+    text-align: center;
+    padding-inline-start: 0rem;
+    margin-bottom: 0;
+}
+nav li {
+    display: inline-block;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+nav a:active {
+    text-decoration: underline;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* section and article */
+
+section {
+    display: flex;    
+    margin-bottom: 0;
+}
+
+section + footer {
+    margin-bottom: 1rem;
+}
+
+main article {
+    background-color: #ffffff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+article {
+    flex: 1;
+    padding-bottom: 1.5rem;
+}
+
+article img {
+    max-width: 100%;
+}
+
+article ul {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+article a:link {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #000000;
+    text-decoration: underline;
+}
+
+article a:hover {
+    color: #000000;
+    text-decoration: 5px underline;
+}
+
+article a:active {
+    color: #ffffff;
+    background-color: black;
+}
+
+.SectionOne {
+    margin-top: 2rem;
+}
+
+#Hero {
+    background-image: url("/assets/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    height: 20rem;
+}
+
+#Hero h1 {
+    font-weight: 600;
+    font-size: 80px;
+    background: rgba(0, 0, 0, 0.5);
+    padding-right: 0.5rem;
+    margin-bottom: 0;
+}
+
+#Hero p {
+    max-width: 100%;
+    padding-right: 0.5rem;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+    padding-bottom: 1rem;
+}
+
+.sectionTwo {
+    background-color: #ffffff;
+}
+
+.sectionTwo article {
+    border: solid 2px #000000;
+    margin: 2rem;
+}
+
+
+
+/* Footer */
+
+footer {
+    margin: 1rem;
+    display: flex;
+    gap: 2rem 1rem;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer img {
+    max-width: 50%;
+    margin-top: 1rem;
+}
+
+footer p {
+    border-top: #000000;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    text-align: right;
+    color: #000000;
+}
